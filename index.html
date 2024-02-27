@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expandable Card with Radio Button</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <h2 class="heading">~~~~~~~~~Bundle & Save~~~~~~~~~</h2>
+      <br />
+
+      <!-- first card -->
+      <div class="card" id="card1">
+        <div class="card-header">
+          <input
+            type="radio"
+            class="radio-btn"
+            name="card-radio"
+            id="card-radio1"/>
+          <label   class="dkk">1 Pair <br />
+            DKK 195.00</label>
+          <p>50% OFF</p>
+        </div>
+        <div class="card-content" id="content1">
+          <div class="selected-values-row">
+            <p>
+              <span id="selectedSize1" class="size">Size:</span>
+              <span id="selectedColor1" class="color"> Colour:</span>
+            </p>
+          </div>
+          <div class="dropdown-row">
+            #1
+            <select name="size" id="size1">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <select name="color" id="color1">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </div>
+          <div class="dropdown-row">
+            #2
+            <select name="size" id="size2">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <select name="color" id="color2">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <br />
+      <!-- second card -->
+      <div class="card" id="card2">
+        <div class="card-header">
+          <input
+            type="radio"
+            class="radio-btn"
+            name="card-radio"
+            id="card-radio2"
+          />
+          <label   class="dkk"
+            >2 Pair <br />
+            DKK 345.00</label>
+
+          <p> <span class="Popular">Most Popular</span>  <br/>
+            40% OFF</p>
+        </div>
+        <div class="card-content" id="content2">
+          <div class="selected-values-row">
+            <p>
+              <span id="selectedSize" class="size">Size:</span>
+              <span id="selectedColor" class="color"> Colour:</span>
+            </p>
+          </div>
+          <div class="dropdown-row">
+            #1
+            <select name="size" id="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <select name="color" id="color">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </div>
+          <div class="dropdown-row">
+            #2
+            <select name="size" id="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <select name="color" id="color">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <br />
+      <!-- Third card -->
+      <div class="card" id="card3">
+        <div class="card-header">
+          <input
+            type="radio"
+            class="radio-btn"
+            name="card-radio"
+            id="card-radio3"
+          />
+          <label   class="dkk"
+            >3 Pair <br />
+            DKK 528.00</label
+          >
+          <p>60% OFF</p>
+        </div>
+        <div class="card-content" id="content3">
+          <div class="selected-values-row">
+            <p>
+              <span id="selectedSize" class="size">Size:</span>
+              <span id="selectedColor" class="color"> Colour:</span>
+            </p>
+          </div>
+          <div class="dropdown-row">
+            #1
+            <select name="size" id="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <select name="color" id="color">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </div>
+          <div class="dropdown-row">
+            #2
+            <select name="size" id="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <select name="color" id="color">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <br />
+    <div  class="footer">
+        <p class="shoppping">Free 2 Day Shopping </p>
+        <p>Total : DKK 360.00</p>
+    </div>
+     <button class="addTocCart">+Add to Cart</button>
+    </div>  
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
